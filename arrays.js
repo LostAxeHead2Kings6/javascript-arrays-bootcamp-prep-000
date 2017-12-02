@@ -1,8 +1,8 @@
 chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles']
 
 function addElementToBeginningOfArray(array, element) {
-  return [element, ...array]
-
+  new_array =  [element, ...array]
+  return new_array
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
