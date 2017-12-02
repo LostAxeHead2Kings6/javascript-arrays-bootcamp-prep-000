@@ -9,6 +9,7 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   array = [element, ...array]
   return array
 }
+destructivelyAddElementToBeginningOfArray()
 
 function addElementToEndOfArray(array, element) {
   new_array = [...array, element]
